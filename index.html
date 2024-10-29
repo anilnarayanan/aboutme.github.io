@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Anil Narayanan - Profile</title>
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/4.0.0/github-markdown.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <style>
+    body {
+      font-family: 'Roboto', sans-serif;
+      background-color: #f4f4f4; /* Softer background */
+      color: #333;
+      margin: 0;
+      padding: 20px;
+    }
+
+    .container {
+      max-width: 900px;
+      margin: auto;
+      background: #ffffff; /* Maintain white background */
+      padding: 40px;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Softer shadow */
+      border-radius: 10px;
+      line-height: 1.6;
+    }
+
+    h1,
+    h2,
+    h3 {
+      color: #005f8d; /* Softer blue */
+      margin-bottom: 15px;
+    }
+
+    h1 {
+      font-size: 2.5em;
+      margin-bottom: 20px;
+      text-align: center; /* Centers text inside h1 */
+    }
+
+    .section {
+      margin-bottom: 40px;
+    }
+
+    .section-title {
+      font-size: 1.8em;
+      cursor: pointer;
+      padding: 10px;
+      background: #0084c4; /* Softer blue */
+      color: white;
+      border-radius: 5px;
+      transition: background 0.3s;
+    }
+
+    .section-title:hover {
+      background: #006699; /* Darker blue */
+    }
+
+    .section-content {
+      display: none;
+      padding-left: 20px;
+      padding-top: 10px;
+      border-left: 4px solid #0084c4; /* Softer blue */
+      background: #e8f4f8; /* Softer background for section */
+      border-radius: 5px;
+    }
+
+    .contact-info {
+      display: flex;
+      justify-content: space-between; /* Aligns items horizontally */
+      padding: 10px 0; /* Adds some vertical space */
+      list-style: none;
+      flex-wrap: wrap; /* Allows wrapping to next line if needed */
+    }
+
+    .contact-info li {
+      margin: 0 15px; /* Horizontal space between items */
+      display: flex;
+      align-items: center;
+    }
+
+    .contact-info i {
+      margin-right: 10px;
+      color: #0084c4; /* Softer icon color */
+    }
+
+    .skills,
+    .experience,
+    .education,
+    .certifications {
+      padding-left: 20px;
+    }
+
+    .job-role {
+      font-weight: bold;
+      color: #333;
+      margin-bottom: 5px;
+    }
+
+    footer {
+      margin-top: 30px;
+      padding-top: 20px;
+      border-top: 1px solid #ddd;
+      text-align: center;
+      color: #777;
+    }
+
+    .footer-links {
+      margin-top: 10px;
+    }
+
+    .footer-links a {
+      color: #0084c4; /* Softer link color */
+      text-decoration: none;
+      margin: 0 10px;
+      transition: color 0.3s ease;
+    }
+
+    .footer-links a:hover {
+      text-decoration: underline;
+      color: #006699; /* Darker link color */
+    }
+
+    .avatar {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      object-fit: cover;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05); /* Softer shadow */
+    }
+</style>
+
+</head>
+
+<body>
+  <div class="container">
+    <h1>Anil Narayanan</h1>
+    <img src="me.jpeg" alt="Anil Narayanan" class="avatar">
+    <ul class="contact-info">
+      <li><i class="fas fa-map-marker-alt"></i><strong>Location:</strong> Bangalore, India</li>
+      <li><i class="fas fa-envelope"></i><strong>Email:</strong> <a
+          href="mailto:narayanan.anil@gmail.com">narayanan.anil@gmail.com</a></li>
+      <li><i class="fas fa-phone-alt"></i><strong>Phone:</strong> +91-9986641743</li>
+    </ul>
+
+    <div class="section">
+      <h2 class="section-title" onclick="toggleSection('skills')">Skills</h2>
+      <div class="section-content" id="skills">
+        <table style="width: 100%; border-collapse: collapse; margin-top: 10px;">
+          <thead>
+            <tr>
+              <th style="text-align: left; padding: 8px;">Skill Category</th>
+              <th style="text-align: left; padding: 8px;">Details</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td style="padding: 8px; border: 1px solid #ddd;"><strong>Cloud & Infrastructure</strong></td>
+              <td style="padding: 8px; border: 1px solid #ddd;">AWS, GCP, Azure, VMware, Kubernetes, Docker</td>
+            </tr>
+            <tr>
+              <td style="padding: 8px; border: 1px solid #ddd;"><strong>DevOps & CI/CD</strong></td>
+              <td style="padding: 8px; border: 1px solid #ddd;">GitHub Actions, Jenkins, Terraform, Ansible, Docker, Kubernetes</td>
+            </tr>
+            <tr>
+              <td style="padding: 8px; border: 1px solid #ddd;"><strong>Full Stack Development</strong></td>
+              <td style="padding: 8px; border: 1px solid #ddd;">
+                <strong>Backend:</strong> Django, Flask, Spring Boot, PostgreSQL, SQLite, Cassandra, MongoDB, Redis, Memcached, FAISS, Weaviate, Pinecone, Chroma, OpenSearch, Neo4j, Salesforce Apex<br>
+                <strong>Frontend:</strong> JavaScript, ReactJS, Bootstrap, Bulma, HTML, CSS, Salesforce Lightning
+              </td>
+            </tr>
+            <tr>
+              <td style="padding: 8px; border: 1px solid #ddd;"><strong>AI/ML & Data Science</strong></td>
+              <td style="padding: 8px; border: 1px solid #ddd;">
+                <strong>Technologies:</strong> LangChain, LangGraph, Langfuse, LlamaIndex, Azure & AWS AI Services, NVIDIA NeMo Guardrails, TensorFlow, PyTorch, scikit-learn, Keras, Pandas, NumPy, Generative AI models, spaCy, NLTK, Matplotlib, Seaborn<br>
+                <strong>Applications:</strong> Chatbots, Machine Translation, Text Classification
+              </td>
+            </tr>
+            <tr>
+              <td style="padding: 8px; border: 1px solid #ddd;"><strong>Generative AI & Automation</strong></td>
+              <td style="padding: 8px; border: 1px solid #ddd;">OpenAI (GPT Models), Llama, BERT, Hugging Face</td>
+            </tr>
+            <tr>
+              <td style="padding: 8px; border: 1px solid #ddd;"><strong>Hybrid Cloud & BCDR</strong></td>
+              <td style="padding: 8px; border: 1px solid #ddd;">VMware, OpenStack, AWS, Azure, GCP</td>
+            </tr>
+            <tr>
+              <td style="padding: 8px; border: 1px solid #ddd;"><strong>Data Scraping & Insights</strong></td>
+              <td style="padding: 8px; border: 1px solid #ddd;">BeautifulSoup, Scrapy, Selenium</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+
+    <div class="section">
+      <h2 class="section-title" onclick="toggleSection('summary')">Professional Summary</h2>
+      <div class="section-content" id="summary">
+        <p>Open Group Certified Solution Architect with over 18 years of experience in Enterprise and Cloud
+          Architecture, Application Modernization, DevOps, and Full Stack Development. Skilled in implementing AI/ML
+          solutions and automation frameworks across Financial Services, Automotive, IT, Retail, and Government sectors.
+          Proven track record of leading teams to deliver innovative solutions, including AI/ML projects and
+          automation-driven efficiency improvements.</p>
+      </div>
+    </div>
+
+    <div class="section">
+      <h2 class="section-title" onclick="toggleSection('experience')">Professional Experience</h2>
+      <div class="section-content" id="experience">
+        <h3>Kyndryl Solutions Pvt. Ltd., Bangalore</h3>
+        <p class="job-role">Associate Director, Software Architecture (January 2023 - Present)</p>
+        <ul>
+          <li><strong>Financial Services:</strong> Led the development of RBI's Unified Lending Interface (ULI),
+            integrating 18 lenders into a unified platform, launching 40+ services, handling over a million API calls,
+            and reducing loan processing times by 40%.</li>
+          <li><strong>Client: Grameen Bank:</strong> Enhanced sentiment analysis using Generative AI.</li>
+          <li><strong>Automotive:</strong> Developed an NLP-based chatbot for Hero Motor Corp.</li>
+          <li><strong>Client: Mercedes-Benz Research & Development India:</strong> Created a machine translation
+            solution using fine-tuned models.</li>
+          <li><strong>Infrastructure:</strong> Developed an automation engine for Kubernetes Kustomize overlays.</li>
+        </ul>
+
+        <h3>IBM India Pvt. Ltd., Bangalore</h3>
+        <p class="job-role">Cloud Solutions Architect / Software Engineer (March 2011 - Dec 2022)</p>
+        <ul>
+          <li><strong>Domain: Modernization:</strong> Lead developer for IBM Software Defined Modernization platform.
+          </li>
+          <li><strong>Domain: Digital Identity Verification:</strong> Architected a solution with document and selfie
+            verification.</li>
+        </ul>
+
+        <h3>KPIT Cummins Infosystems Ltd., Bangalore</h3>
+        <p class="job-role">Subject Matter Expert (Nov 2009 - Mar 2011)</p>
+        <ul>
+          <li>Resolved technical issues in firmware, middleware, and application software.</li>
+        </ul>
+
+        <h3>Hewlett Packard Enterprise, Bangalore</h3>
+        <p class="job-role">Technical Solutions Engineer (May 2007 - Nov 2009)</p>
+        <ul>
+          <li>Supported HP Business Critical Enterprise clients on the VMware platform.</li>
+        </ul>
+
+        <h3>National Institute of Rural Development, Hyderabad</h3>
+        <p class="job-role">Software Engineer (June 2000 - Sep 2002)</p>
+        <ul>
+          <li>Led the design and maintenance of the institution's web portal.</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="section">
+      <h2 class="section-title" onclick="toggleSection('education')">Education</h2>
+      <div class="section-content" id="education">
+        <ul class="education">
+          <li>
+            <div style="display: flex; justify-content: space-between;">
+              <strong style="padding-right: 10px;">PGDBA, AI/ML</strong>
+              <span>2024-Present</span>
+            </div>
+            <div>IIIT, Bangalore</div>
+          </li>
+          <li>
+            <div style="display: flex; justify-content: space-between;">
+              <strong style="padding-right: 10px;">PGDBA, Software Engineering</strong>
+              <span>2019-2020</span>
+            </div>
+            <div>IIIT, Bangalore</div>
+          </li>
+          <li>
+            <div style="display: flex; justify-content: space-between;">
+              <strong style="padding-right: 10px;">M.S. Information Technology</strong>
+              <span>2003-2005</span>
+            </div>
+            <div>University of Southern Queensland, Australia</div>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="section">
+      <h2 class="section-title" onclick="toggleSection('certifications')">Certifications</h2>
+      <div class="section-content" id="certifications">
+        <ul class="certifications">
+          <li>Open Group Certified Solution Architect (Open CA)</li>
+          <li>Cisco Certified</li>
+          <li>VMware Certified Professional</li>
+          <li>RedHat Certified</li>
+          <li>HashiCorp Certified: Terraform Associate</li>
+        </ul>
+      </div>
+    </div>
+
+    <footer>
+      <p>&copy; 2024 Anil Narayanan</p>
+      <div class="footer-links">
+        <a href="https://github.com/anilnarayanan" target="_blank">GitHub</a>
+        <a href="https://www.linkedin.com/in/anilnarayanan" target="_blank">LinkedIn</a>
+        <a href="https://twitter.com/anilnarayanan" target="_blank">Twitter</a>
+      </div>
+    </footer>
+  </div>
+
+  <script>
+    function toggleSection(id) {
+      const sectionContent = document.getElementById(id);
+      sectionContent.style.display = sectionContent.style.display === 'block' ? 'none' : 'block';
+    }
+  </script>
+</body>
+
+</html>
